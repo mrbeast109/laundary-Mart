@@ -77,7 +77,6 @@ main{
 
 .left-section{
     width: 40%;
-    
 }
 
 .left-section h1{
@@ -97,7 +96,7 @@ main{
     color: rgb(155, 155, 155);
 }
 
-.left-section button{
+.book-service{
     margin-top: 30px;
     padding: 1.5rem 4rem;
     border: none;
@@ -107,12 +106,11 @@ main{
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
-    position: fixed;
     border: 1px solid rgb(102, 194, 252);
     transition: background-color 0.15s ease, color 0.15s ease, border 0.15s ease;
 }
 
-.left-section button:hover{
+.book-service:hover{
     color:rgb(102, 194, 252);
     background-color: rgb(255, 252, 246);
     border: 1px solid rgb(102, 194, 252);
@@ -125,4 +123,288 @@ main{
 .right-section img{
     width: 700px;
     margin-left: 170px
+}
+
+.achieve{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    background-color: rgb(102, 194, 252);
+    padding: 1rem 1rem;
+}
+
+.achieve-heading{
+    width: 40%;
+}
+
+.achieve-heading h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    margin-left: 190px;
+}
+
+.achieve-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    width: 60%;
+}
+
+.achieve-2 h2, .achieve-3 h2, .achieve-4 h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.achieve-2 p, .achieve-3 p, .achieve-4 p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    padding: 1rem 7rem;
+    gap: 4rem;
+}
+
+.right-section-services{
+    width: 40%;
+    padding: 2rem 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-section-heading{
+    text-align: center;
+}
+
+.cart-details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: #f1f1f1;
+    width: 100%;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.cart-details .s-no{
+    width: 10%;
+}
+
+.cart-details .item-name{
+    width: 60%;
+}
+
+.cart-details .item-price{
+    width: 30%;
+}
+
+.cart-item{
+    padding: 1rem 1rem;
+    width: 100%;
+    font-weight: 700;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item svg{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.cart-item p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(155, 155, 155);
+}
+
+.cart-container{
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-bottom-section{
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem 2rem;   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-bottom-section h3{
+    margin-bottom: 10px;
+}
+
+.cart-bottom-section hr{
+    margin-bottom: 10px;
+    color: rgb(201, 201, 201);
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.deliver-det{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 1rem 0;
+}
+
+.deliver-det-bottom{
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 94.5%;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 94.5%;
+}
+
+.name p{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.name input{
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.name input:focus{
+    outline: none;
+    border: 1px solid rgb(102, 194, 252);
+}
+
+.name input::placeholder{
+    color: rgb(155, 155, 155);
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 50%;
+}
+
+.email p{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.email input{
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.email input:focus{
+    outline: none;
+    border: 1px solid rgb(102, 194, 252);
+}
+
+.email input::placeholder{
+    color: rgb(155, 155, 155);
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 50%;
+}
+
+.phone p{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.phone input{
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.phone input:focus{
+    outline: none;
+    border: 1px solid rgb(102, 194, 252);
+}
+
+.phone input::placeholder{
+    color: rgb(155, 155, 155);
+}
+
+.left-section-services{
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-heading{
+    font-size: 1rem;
+    line-height: 50px;
+}
+
+.service-heading span{
+    color: rgb(102, 194, 252);
+}
+
+.service-heading p{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 6px;
+    line-height: 20px;
+    color: rgb(155, 155, 155);
+}
+
+.left-section-services hr{
+    margin: 10px;
+    color: rgb(201, 201, 201);
+    border: 1px solid rgb(201, 201, 201);
+    width: 100%;
+}
+
+.servive-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
