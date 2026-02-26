@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,13 +15,13 @@
     border-bottom-right-radius: 16px;
 }
 
-.logo img{
+.logo img {
     width: 300px;
     padding: 1rem 1rem;
-   
+
 }
 
-.navigation{
+.navigation {
     list-style: none;
     display: flex;
     gap: 25px;
@@ -29,23 +29,23 @@
     font-weight: 700;
     color: grey;
     margin-left: -180px;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-bottom: 8px;
     cursor: pointer;
 }
 
-.navigation li{
-  transition: color 0.15s ease, transform 0.15s ease;
+.navigation li {
+    transition: color 0.15s ease, transform 0.15s ease;
 }
 
-.navigation li:hover{
+.navigation li:hover {
     color: rgb(179, 179, 179);
     transform: translateY(-5px);
 }
 
 
 
-.username{
+.username {
     text-decoration: none;
     background-color: rgb(202, 233, 243);
     border-radius: 10px;
@@ -61,7 +61,7 @@
     transition: background-color 0.15s ease, color 0.15s ease;
 }
 
-.username:hover{    
+.username:hover {
     background-color: rgb(102, 194, 252);
     color: rgb(202, 233, 243);
 }
@@ -69,26 +69,26 @@
 
 /*<---main--->*/
 
-main{
+main {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.left-section{
+.left-section {
     width: 40%;
 }
 
-.left-section h1{
+.left-section h1 {
     font-size: 3.2rem;
     line-height: 70px;
 }
 
-.left-section span{
+.left-section span {
     color: rgb(102, 194, 252);
 }
 
-.left-section p{
+.left-section p {
     font-size: 20px;
     text-align: left;
     margin-top: 10px;
@@ -96,12 +96,12 @@ main{
     color: rgb(155, 155, 155);
 }
 
-.book-service{
+.book-service {
     margin-top: 30px;
     padding: 1.5rem 4rem;
     border: none;
     border-radius: 15px;
-    background-color:rgb(102, 194, 252);
+    background-color: rgb(102, 194, 252);
     color: white;
     font-size: 1rem;
     font-weight: 500;
@@ -110,22 +110,22 @@ main{
     transition: background-color 0.15s ease, color 0.15s ease, border 0.15s ease;
 }
 
-.book-service:hover{
-    color:rgb(102, 194, 252);
+.book-service:hover {
+    color: rgb(102, 194, 252);
     background-color: rgb(255, 252, 246);
     border: 1px solid rgb(102, 194, 252);
 }
 
-.right-section{
+.right-section {
     width: 40%;
 }
 
-.right-section img{
+.right-section img {
     width: 700px;
     margin-left: 170px
 }
 
-.achieve{
+.achieve {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -134,18 +134,18 @@ main{
     padding: 1rem 1rem;
 }
 
-.achieve-heading{
+.achieve-heading {
     width: 40%;
 }
 
-.achieve-heading h1{
+.achieve-heading h1 {
     font-size: 3rem;
     font-weight: 700;
     color: black;
     margin-left: 190px;
 }
 
-.achieve-cont{
+.achieve-cont {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,29 +153,33 @@ main{
     width: 60%;
 }
 
-.achieve-2 h2, .achieve-3 h2, .achieve-4 h2{
+.achieve-2 h2,
+.achieve-3 h2,
+.achieve-4 h2 {
     font-size: 2.2rem;
     font-weight: 700;
     color: black;
 }
 
-.achieve-2 p, .achieve-3 p, .achieve-4 p{
+.achieve-2 p,
+.achieve-3 p,
+.achieve-4 p {
     font-size: 1rem;
     font-weight: 500;
     color: black;
 }
 
-.services{
+.services {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f1f1f1;
-    padding: 1rem 7rem;
+    padding: 2rem 7rem;
     gap: 4rem;
 }
 
-.right-section-services{
+.right-section-services {
     width: 40%;
     padding: 2rem 2rem;
     border-radius: 20px;
@@ -184,11 +188,11 @@ main{
     gap: 20px;
 }
 
-.right-section-heading{
+.right-section-heading {
     text-align: center;
 }
 
-.cart-details{
+.cart-details {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -199,19 +203,19 @@ main{
     margin-top: 20px;
 }
 
-.cart-details .s-no{
+.cart-details .s-no {
     width: 10%;
 }
 
-.cart-details .item-name{
+.cart-details .item-name {
     width: 60%;
 }
 
-.cart-details .item-price{
+.cart-details .item-price {
     width: 30%;
 }
 
-.cart-item{
+.cart-item {
     padding: 1rem 1rem;
     width: 100%;
     font-weight: 700;
@@ -223,53 +227,60 @@ main{
     gap: 10px;
 }
 
-.cart-item svg{
+.cart-items {
+    max-height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 10px;
+}
+
+.cart-item svg {
     width: 50px;
     height: 50px;
     margin-left: 10px;
     color: black;
 }
 
-.cart-item p{
+.cart-item p {
     font-size: 1rem;
     font-weight: 500;
     color: rgb(155, 155, 155);
 }
 
-.cart-container{
+.cart-container {
     background-color: white;
     border-radius: 20px;
     padding: 2rem 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.cart-bottom-section{
+.cart-bottom-section {
     background-color: white;
     border-radius: 20px;
-    padding: 2rem 2rem;   
+    padding: 2rem 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.cart-bottom-section h3{
+.cart-bottom-section h3 {
     margin-bottom: 10px;
 }
 
-.cart-bottom-section hr{
+.cart-bottom-section hr {
     margin-bottom: 10px;
     color: rgb(201, 201, 201);
     border: 1px solid rgb(201, 201, 201);
 }
 
-.deliver-det{
+.deliver-det {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-start;
     gap: 10px;
     padding: 1rem 0;
 }
 
-.deliver-det-bottom{
+.deliver-det-bottom {
     display: flex;
     gap: 50px;
     align-items: flex-start;
@@ -277,7 +288,7 @@ main{
     width: 94.5%;
 }
 
-.name{
+.name {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -286,29 +297,29 @@ main{
     width: 94.5%;
 }
 
-.name p{
+.name p {
     color: black;
     font-size: 1rem;
     font-weight: 500;
 }
 
-.name input{
+.name input {
     width: 100%;
     padding: 0.7rem 1rem;
     border-radius: 10px;
     border: 1px solid rgb(201, 201, 201);
 }
 
-.name input:focus{
+.name input:focus {
     outline: none;
     border: 1px solid rgb(102, 194, 252);
 }
 
-.name input::placeholder{
+.name input::placeholder {
     color: rgb(155, 155, 155);
 }
 
-.email{
+.email {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -317,29 +328,29 @@ main{
     width: 50%;
 }
 
-.email p{
+.email p {
     color: black;
     font-size: 1rem;
     font-weight: 500;
 }
 
-.email input{
+.email input {
     width: 100%;
     padding: 0.7rem 1rem;
     border-radius: 10px;
     border: 1px solid rgb(201, 201, 201);
 }
 
-.email input:focus{
+.email input:focus {
     outline: none;
     border: 1px solid rgb(102, 194, 252);
 }
 
-.email input::placeholder{
+.email input::placeholder {
     color: rgb(155, 155, 155);
 }
 
-.phone{
+.phone {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -348,29 +359,55 @@ main{
     width: 50%;
 }
 
-.phone p{
+.phone p {
     color: black;
     font-size: 1rem;
     font-weight: 500;
 }
 
-.phone input{
+.phone input {
     width: 100%;
     padding: 0.7rem 1rem;
     border-radius: 10px;
     border: 1px solid rgb(201, 201, 201);
 }
 
-.phone input:focus{
+.phone input:focus {
     outline: none;
     border: 1px solid rgb(102, 194, 252);
 }
 
-.phone input::placeholder{
+.phone input::placeholder {
     color: rgb(155, 155, 155);
 }
 
-.left-section-services{
+.book-now {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease, border 0.15s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(102, 194, 252);
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: transform 0.15s ease;
+}
+
+.book-now:hover {
+    transform: scale(1.02);
+}
+
+.book-now:active {
+    transform: scale(0.98);
+}
+
+.left-section-services {
     width: 50%;
     background-color: white;
     border-radius: 20px;
@@ -378,16 +415,16 @@ main{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.service-heading{
+.service-heading {
     font-size: 1rem;
     line-height: 50px;
 }
 
-.service-heading span{
+.service-heading span {
     color: rgb(102, 194, 252);
 }
 
-.service-heading p{
+.service-heading p {
     font-size: 17px;
     text-align: left;
     margin-top: 6px;
@@ -395,7 +432,7 @@ main{
     color: rgb(155, 155, 155);
 }
 
-.left-section-services hr{
+.left-section-services hr {
     margin: 10px;
     color: rgb(201, 201, 201);
     border: 1px solid rgb(201, 201, 201);
@@ -404,7 +441,7 @@ main{
     left: -10px;
 }
 
-.service-items{
+.service-items {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -413,9 +450,7 @@ main{
     padding: 1.2rem 0;
 }
 
-
-
-.service-1{
+.service-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -423,14 +458,14 @@ main{
     font-weight: 500;
 }
 
-.service-1 h2{
+.service-1 h2 {
     width: 20%;
     font-size: 1.1rem;
     font-weight: 700;
     color: black;
 }
 
-.service-1 p{
+.service-1 p {
     width: 70%;
     font-size: 1rem;
     font-weight: 500;
@@ -438,7 +473,7 @@ main{
     padding-left: 20px;
 }
 
-.service-1 button{
+.service-1 button {
     width: 20%;
     padding: 0.7rem 1rem;
     border-radius: 10px;
@@ -454,13 +489,13 @@ main{
     font-weight: 700;
 }
 
-.service-1 button svg{
+.service-1 button svg {
     width: 20px;
     height: 20px;
     fill: black;
 }
 
-.service-2{
+.service-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -468,14 +503,14 @@ main{
     font-weight: 500;
 }
 
-.service-2 h2{
+.service-2 h2 {
     width: 20%;
     font-size: 1.1rem;
     font-weight: 700;
     color: black;
 }
 
-.service-2 p{
+.service-2 p {
     width: 70%;
     font-size: 1rem;
     font-weight: 500;
@@ -483,7 +518,7 @@ main{
     padding-left: 20px;
 }
 
-.service-2 button{
+.service-2 button {
     width: 20%;
     padding: 0.7rem 1rem;
     border-radius: 10px;
@@ -499,13 +534,13 @@ main{
     font-weight: 700;
 }
 
-.service-2 button svg{
+.service-2 button svg {
     width: 20px;
     height: 20px;
     fill: black;
 }
 
-.service-3{
+.service-3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -513,14 +548,14 @@ main{
     font-weight: 500;
 }
 
-.service-3 h2{
+.service-3 h2 {
     width: 20%;
     font-size: 1.1rem;
     font-weight: 700;
     color: black;
 }
 
-.service-3 p{
+.service-3 p {
     width: 70%;
     font-size: 1rem;
     font-weight: 500;
@@ -528,7 +563,7 @@ main{
     padding-left: 20px;
 }
 
-.service-3 button{
+.service-3 button {
     width: 20%;
     padding: 0.7rem 1rem;
     border-radius: 10px;
@@ -544,13 +579,13 @@ main{
     font-weight: 700;
 }
 
-.service-3 button svg{
+.service-3 button svg {
     width: 20px;
     height: 20px;
     fill: black;
 }
 
-.service-4{
+.service-4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -558,14 +593,14 @@ main{
     font-weight: 500;
 }
 
-.service-4 h2{
+.service-4 h2 {
     width: 20%;
     font-size: 1.1rem;
     font-weight: 700;
     color: black;
 }
 
-.service-4 p{
+.service-4 p {
     width: 70%;
     font-size: 1rem;
     font-weight: 500;
@@ -573,7 +608,7 @@ main{
     padding-left: 20px;
 }
 
-.service-4 button{
+.service-4 button {
     width: 20%;
     padding: 0.7rem 1rem;
     border-radius: 10px;
@@ -589,13 +624,13 @@ main{
     font-weight: 700;
 }
 
-.service-4 button svg{
+.service-4 button svg {
     width: 20px;
     height: 20px;
     fill: black;
 }
 
-.service-5{
+.service-5 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -603,14 +638,14 @@ main{
     font-weight: 500;
 }
 
-.service-5 h2{
+.service-5 h2 {
     width: 40%;
     font-size: 1.1rem;
     font-weight: 700;
     color: black;
 }
 
-.service-5 p{
+.service-5 p {
     width: 50%;
     font-size: 1rem;
     font-weight: 500;
@@ -618,7 +653,7 @@ main{
     padding-left: 20px;
 }
 
-.service-5 button{
+.service-5 button {
     width: 20%;
     padding: 0.7rem 1rem;
     border-radius: 10px;
@@ -634,13 +669,13 @@ main{
     font-weight: 700;
 }
 
-.service-5 button svg{
+.service-5 button svg {
     width: 20px;
     height: 20px;
     fill: black;
 }
 
-.service-6{
+.service-6 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -648,22 +683,22 @@ main{
     font-weight: 500;
 }
 
-.service-6 h2{
+.service-6 h2 {
     width: 40%;
     font-size: 1.1rem;
     font-weight: 700;
     color: black;
 }
 
-.service-6 p{
+.service-6 p {
     width: 50%;
     font-size: 1rem;
     font-weight: 500;
-    color:  rgb(30, 155, 204);
+    color: rgb(30, 155, 204);
     padding-left: 20px;
 }
 
-.service-6 button{
+.service-6 button {
     width: 20%;
     padding: 0.7rem 1rem;
     border-radius: 10px;
@@ -679,13 +714,13 @@ main{
     font-weight: 700;
 }
 
-.service-6 button svg{
+.service-6 button svg {
     width: 20px;
     height: 20px;
     fill: black;
 }
 
-.service-info{
+.service-info {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -693,14 +728,25 @@ main{
     padding: 1.2rem 0;
 }
 
-.service-info svg{
+.service-info svg {
     width: 20px;
     height: 20px;
-    
+
 }
 
-.service-info p{
+.service-info p {
     font-size: 1rem;
     font-weight: 500;
     color: rgb(30, 155, 204);
+}
+
+.remove-item-btn {
+    background-color: #ffe8e8 !important;
+    color: #d9534f !important;
+    border: 1px solid #ffe8e8 !important;
+}
+
+.remove-item-btn:hover {
+    background-color: #ffdcdc !important;
+    border: 1px solid #ffdcdc !important;
 }
